@@ -353,7 +353,7 @@ ul {
     .home_banner_area .banner_inner .banner_content {
       color: #fff; }
       .home_banner_area .banner_inner .banner_content h3 {
-        font-size: 35px;
+        font-size: 20px;
         font-family: "Poppins", sans-serif;
         font-weight: 600;
         margin-bottom: 30px; }
@@ -1499,7 +1499,7 @@ ul {
   padding-top: 130px; }
 
 .bg_one {
-  background: #2b237c; }
+  background: #212121; }
 
 .sample-text-area {
   padding: 100px 0px; }
@@ -2866,7 +2866,7 @@ h6 {
 .testimonial-area {
   background-size: cover;
   position: relative;
-  background: #2b237c;
+  background: #212121;
   padding-bottom: 200px; }
   .testimonial-area .owl-dots {
     position: absolute;
@@ -3104,7 +3104,7 @@ h6 {
 .service-page.service-area {
   background: #fff; }
   .service-page.service-area .single-service {
-    background: #2b237c; }
+    background: #212121; }
 
 .area-heading {
   margin-bottom: 90px;
