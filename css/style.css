@@ -3518,29 +3518,26 @@ h6 {
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
-.feature-area {
+.portfolio {
   position: relative; }
-  .feature-area:after {
+  .portfolio:after {
     content: '';
     position: absolute;
-    width: 50%;
+    width: 30%;
     height: 100%;
-    background-image: url(../img/banner/about2.png);
-    background-position: center left;
-    background-repeat: no-repeat;
     left: 165px;
     top: 0; }
   @media (max-width: 1199px) {
-    .feature-area:after {
+    .portfolio:after {
       left: 25px;
       background-size: contain;
       width: 40%; } }
-  .feature-area .area-heading {
+  .portfolio .area-heading {
     margin-bottom: 50px; }
-  .feature-area .single-feature {
+  .portfolio .single-feature {
     text-align: left;
     transition: all 300ms linear 0s; }
-    .feature-area .single-feature .feature-icon {
+    .portfolio .single-feature .feature-icon {
       width: 80px;
       height: 80px;
       text-align: center;
@@ -3550,7 +3547,7 @@ h6 {
       line-height: 100px;
       min-width: 80px;
       margin-right: 40px; }
-      .feature-area .single-feature .feature-icon:after {
+      .portfolio .single-feature .feature-icon:after {
         content: '';
         position: absolute;
         height: 80px;
@@ -3560,22 +3557,22 @@ h6 {
         left: 0;
         z-index: -1;
         top: 0; }
-      .feature-area .single-feature .feature-icon i {
+      .portfolio .single-feature .feature-icon i {
         font-size: 40px;
         color: #17252A; }
-    .feature-area .single-feature .single-feature-content h5 {
+    .portfolio .single-feature .single-feature-content h5 {
       font-size: 20px;
       font-weight: 600;
       color: #FEFFFF;
       margin-bottom: 18px; }
-    .feature-area .single-feature .single-feature-content p {
+    .portfolio .single-feature .single-feature-content p {
       line-height: 27px;
       font-size: 14px;
       margin-bottom: 35px;
       color: #FEFFFF; }
-  .feature-area .col-:nth-child(1) .single-feature .feature-icon:after {
+  .portfolio .col-:nth-child(1) .single-feature .feature-icon:after {
     background: #FBA100; }
-  .feature-area .col-:nth-child(2) .single-feature .feature-icon:after {
+  .portfolio .col-:nth-child(2) .single-feature .feature-icon:after {
     background: #6C648B; }
 
 /*---------------------------------------------------- */
