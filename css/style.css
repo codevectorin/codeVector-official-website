@@ -3518,6 +3518,9 @@ h6 {
 
 /*---------------------------------------------------- */
 /*----------------------------------------------------*/
+html {
+  scroll-behavior: smooth; }
+
 .portfolio {
   position: relative; }
   .portfolio:after {
