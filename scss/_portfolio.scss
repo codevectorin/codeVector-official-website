@@ -1,0 +1,93 @@
+html {
+    scroll-behavior: smooth;
+
+}
+.portfolio{
+	
+	position: relative;
+	&:after{
+		content: '';
+		position: absolute;
+		width: 30%;
+		height: 100%;
+		// background-image: url(../img/banner/about2.png);
+		// background-position: center left;
+		// background-repeat: no-repeat;
+		left: 165px;
+		top: 0;
+
+	}
+
+	@media (max-width: 1199px){
+		&:after {
+			left: 25px;
+			background-size: contain;
+			width: 40%;
+		}
+	}
+	.area-heading {
+		margin-bottom: 50px;
+	}
+
+	.single-feature{
+		text-align: left;		
+		@include transition;
+		&:hover{
+			
+		}
+		.feature-icon {
+			width: 80px;
+			height: 80px;
+			text-align: center;
+			margin-bottom: 20px;
+			position: relative;
+			z-index: 1;
+			line-height: 100px;
+			min-width: 80px;
+			margin-right: 40px;
+			&:after{
+				content: '';
+				position: absolute;
+				height: 80px;
+				width: 80px;
+				background: #fcefed;
+				border-radius: 100%;
+				left: 0;
+				z-index: -1;
+				top: 0;
+			}
+			i{
+				font-size: 40px;
+				color: $dip;
+			}
+		}
+		.single-feature-content{
+			h5{
+				font-size: 20px;
+				font-weight: 600;
+				color: $white;
+				margin-bottom: 18px;
+			}
+			p{
+				line-height: 27px;
+				font-size: 14px;
+				margin-bottom: 35px;
+				color: $white;
+			}
+
+		}
+	}
+	.col-:nth-child(1) .single-feature{
+		.feature-icon:after{
+			background: $circle1;
+		}
+
+	}
+	.col-:nth-child(2) .single-feature{
+		.feature-icon:after{
+			background: $circle2;
+		}
+
+	}
+
+}
